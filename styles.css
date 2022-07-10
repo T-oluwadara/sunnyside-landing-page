@@ -1,0 +1,258 @@
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 18px;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.top-item {
+    height: 500px;
+    background-image: url("images/desktop/image-header.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    /* box-sizing: border-box; */
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+#navbarNav {
+    font-family: 'barlow', sans-serif;
+}
+
+.nav-item {
+    margin: 0px 20px;
+
+}
+
+.nav-link {
+    color: white;
+    padding: 8px 0px;
+}
+
+.cont-item {
+    text-transform: uppercase;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: black;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.cont-item:hover {
+    background-color: rgb(155, 230, 255);
+    border-color: transparent;
+}
+
+.top-item h1 {
+    padding-top: 90px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+
+.arrow {
+    padding-top: 30px;
+    align-items: center;
+    margin: 0px auto;
+    width: 20px;
+}
+
+
+.img-txt {
+    padding: 0;
+}
+
+.card-text {
+    padding: 150px 100px;
+}
+
+.card-text h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.card-text p {
+    font-family: 'barlow', sans-serif;
+    color: hsl(210, 4%, 67%);
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.card-text a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-family: 'Fraunces', serif;
+    bottom: 0px;
+}
+
+.card-text-info-1 {
+    border-bottom: 10px solid yellow;
+    border-radius: 5px;
+    margin-bottom: -10px;
+}
+
+.card-text-info-2 {
+    border-bottom: 5px solid pink;
+}
+
+.card-text-info-1:hover {
+    border-bottom: 5px solid hsl(51, 100%, 49%);
+}
+
+.card-item-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.card-img-1 {
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+
+}
+
+.card-img-2 {
+    background-image: url(images/desktop/image-photography.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.card-info {
+    padding-top: 350px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: hsl(198, 62%, 26%);
+}
+
+.card-info p {
+    color: hsl(213, 9%, 39%);
+}
+
+.testimonial {
+    padding: 150px 100px;
+}
+
+.testimonials h2 {
+    text-align: center;
+    margin-bottom: 80px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    color: hsl(210, 4%, 67%);
+}
+
+.testimonials-image {
+    width: 30px;
+    margin: 30px auto;
+}
+
+.testimonial-img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.testimonial-text {
+    text-align: center;
+    font-family: 'barlow', sans-serif;
+    color: hsl(180, 1%, 44%);
+}
+
+.testimonial-text h4 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: black;
+}
+
+.page-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.page-footer {
+    background-color: #76c2b2;
+    text-align: center;
+}
+
+.page-footer-logo {
+    text-align: center;
+}
+
+.page-footer-logo img {
+    margin: 100px auto 40px auto;
+    filter: invert(10%) sepia(96%) saturate(347%) hue-rotate(117deg) brightness(48%) contrast(93%);
+}
+
+.page-foot-text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.page-footer-text {
+    padding: 0px;
+    margin: 20px 40px;
+}
+
+.page-footer-text a {
+    text-decoration: none;
+    color: #2d7465;
+    font-family: 'barlow', sans-serif;
+}
+
+.footer-link:hover {
+    color: white;
+}
+
+.footer-imgs {
+    display: flex;
+    justify-content: center;
+}
+
+.page-footer-img {
+    margin: 0px 20px 50px 20px;
+}
+
+.footer-svg:hover {
+    cursor: pointer;
+    filter: invert(99%) sepia(6%) saturate(25%) hue-rotate(253deg) brightness(200%) contrast(100%);
+}
+
+@media (max-width: 990px) {
+    .hamburger-menu {
+        background-color: #0000004d;
+        width: 300px;
+        height: 250px;
+        float: right;
+        margin-top: 20px;
+        padding-top: 30px;
+    }
+}
