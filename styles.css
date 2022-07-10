@@ -81,28 +81,28 @@ header {
     padding: 0;
 }
 
-.card-text {
-    padding: 150px 100px;
-}
-
+.card-text,
 .card-text-with-background {
     padding: 150px 100px;
 }
 
-.card-text h2 {
+.card-text h2,
+.card-text-with-background h2 {
     font-family: 'Fraunces', serif;
     font-weight: 900;
     margin-bottom: 50px;
 }
 
-.card-text p {
+.card-text p,
+.card-text-with-background p {
     font-family: 'barlow', sans-serif;
     color: hsl(210, 4%, 67%);
     font-weight: 400;
     margin-bottom: 50px;
 }
 
-.card-text a {
+.card-text a,
+.card-text-with-background a {
     text-transform: uppercase;
     text-decoration: none;
     color: black;
