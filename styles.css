@@ -246,7 +246,7 @@ header {
     filter: invert(99%) sepia(6%) saturate(25%) hue-rotate(253deg) brightness(200%) contrast(100%);
 }
 
-@media (max-width: 990px) {
+/* @media (max-width: 990px) {
     .hamburger-menu {
         background-color: #0000004d;
         width: 300px;
@@ -255,4 +255,4 @@ header {
         margin-top: 20px;
         padding-top: 30px;
     }
-}
+} */
