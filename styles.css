@@ -85,6 +85,10 @@ header {
     padding: 150px 100px;
 }
 
+.card-text-with-background {
+    padding: 150px 100px;
+}
+
 .card-text h2 {
     font-family: 'Fraunces', serif;
     font-weight: 900;
@@ -254,5 +258,9 @@ header {
         float: right;
         margin-top: 20px;
         padding-top: 30px;
+    }
+
+    .card-text {
+        padding: 100px 50px;
     }
 }
